@@ -1,0 +1,39 @@
+|Network: | ./mlp/REPORT_1dConv_traffic_0.2401_512_5_0.9_25.csv
+|Training Batch Size: | 128
+|Number of Epochs: | 25
+--------------------------------
+|Network Losses|
+--------------------------------
+|Val Loss: | 0.2401
+|Val MSE: | 0.2333
+|Val MAE: | 0.3217
+--------------------------------
+|Network Architecture (Input/Output)|
+--------------------------------
+|Input Vector Size: | |(7287, 1, 8)|
+|Output Vector Size: | 1
+|Output Activation: | linear
+--------------------------------
+|Network Architecture (Dense)|
+--------------------------------
+|Initial Dense Layer Width: | 512
+|Number of Dense Layers: | 5
+|Dense Growth/Shrinkage factor: | 0.9
+|Dense Activation: | relu
+|Dropout Value: | 0.15
+--------------------------------
+|Network Architecture (Conv)|
+--------------------------------
+|Initial Number of Conv Filters: | 32
+|Number of Conv Layers: | 4
+|Conv Growth/Shrinkage factor: | 2
+|Conv Filter size: | 2
+|Conv Pooling size: | 2
+|Conv Padding size: | same
+|Conv Activation: | relu
+--------------------------------
+|Network Learning Hyper Params|
+--------------------------------
+|Momentum: | 0.995
+|Loss Function: | MSE
+|Learning Rate: | 0.005
